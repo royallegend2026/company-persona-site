@@ -32,7 +32,7 @@ function ContactPage() {
     name: "",
     company: "",
     phone: "",
-    line: products[0].name,
+    line: products[0]?.name ?? "Other / custom",
     brief: "",
   });
 
